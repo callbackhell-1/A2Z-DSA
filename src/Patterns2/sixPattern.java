@@ -8,15 +8,15 @@ public class sixPattern {
 
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
-		 for(int i=n;i>0;i--){
-             int counter =1;
-        for(int j=0;j<i;j++){
-           
-            System.out.print(counter +  " " );
-            counter++;
-        }
-        System.out.println();
-  }
+		for (int i = n; i > 0; i--) {
+			int counter = 1;
+			for (int j = 0; j < i; j++) {
+
+				System.out.print(counter + " ");
+				counter++;
+			}
+			System.out.println();
+		}
 
 	}
 
