@@ -6,8 +6,6 @@ public class fourteenPatter {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-//		String str = scn.nextLine();
-//		char n = str.charAt(0);
 		int n = scn.nextInt();
 		
         for(int i=0;i<n;i++){
